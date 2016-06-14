@@ -1,0 +1,11 @@
+language: go
+
+go:
+  - 1.6
+  - tip
+
+install:
+  - go get -u github.com/yanzay/wednesday
+  - wednesday &
+
+script: go test -v -race
