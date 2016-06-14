@@ -7,5 +7,6 @@ go:
 install:
   - go get -u github.com/yanzay/wednesday
   - wednesday &
+  - go get -u github.com/elodina/go-avro
 
 script: go test -v -race
