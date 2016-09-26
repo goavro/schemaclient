@@ -5,7 +5,7 @@ go:
   - tip
 
 install:
-  - go get -u github.com/yanzay/wednesday
+  - go get -u github.com/goavro/wednesday
   - wednesday &
   - go get -u github.com/elodina/go-avro
 

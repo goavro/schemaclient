@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/yanzay/schemaclient.svg?branch=master)](https://travis-ci.org/yanzay/schemaclient)
+[![Build Status](https://travis-ci.org/goavro/schemaclient.svg?branch=master)](https://travis-ci.org/goavro/schemaclient)
 
 # schemaclient
 Go Schema Registry Client
 
 ## Install
 ```
-go get -u github.com/yanzay/schemaclient
+go get -u github.com/goavro/schemaclient
 ```
